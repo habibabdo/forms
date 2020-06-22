@@ -1,0 +1,10 @@
+{% extends "layout.html"%}
+{% block heading%}
+first page
+{% end block%}
+
+<form accept-charset="{{url_for('hello')}}" method="post">
+<input type="text" placeholder="Enter your Name">
+    <button>Submit</button>
+</form>
+{% endblock %}
